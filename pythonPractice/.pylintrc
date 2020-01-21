@@ -1,0 +1,4 @@
+[MESSAGS CONTROL]
+disable=all
+enable=E
+disable=print-statement

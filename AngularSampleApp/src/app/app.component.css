@@ -1,0 +1,19 @@
+.Wrapper {
+    max-width: 400px;
+    height: 500px;
+    font-size: large;
+    overflow:scroll;
+}
+li.bought {
+    text-decoration: line-through;
+}
+li {
+    text-decoration: none;
+}
+
+.small-container{
+    max-width: 300px; 
+}
+.list-container{
+    max-width: 300px;
+}

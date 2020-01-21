@@ -1,0 +1,16 @@
+<div class="Wrapper border">
+  <h3>Super cool shopping list:</h3>
+  <div class="small-container">
+    <br>
+    <div class="form-row">
+      <input class="form-control col-9" type="text" placeholder="add item" #newItem>
+      <button class="btn btn-dark col" (click)="addItem(newItem.value)">Add</button>
+    </div>
+
+    <ul class="list-group list-container">
+      <li class="list-group-item list-group-item-primary list-group-item-action" *ngFor="let item of shoppingList"
+        (click)="toogleMark(item)" [ngClass]="{'bought': item.bought}">{{item.name}}
+      </li>
+    </ul>
+  </div>
+</div>
