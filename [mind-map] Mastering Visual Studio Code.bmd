@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map name="Mastering Visual Studio Code" document_type="Blumind" editor_version="1.3.21.1">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org/download-->
+  <info>
+    <author>Nathan</author>
+    <company>
+    </company>
+    <version>1.0</version>
+  </info>
+  <layout>TREE_RIGHT</layout>
+  <attributes>
+    <item name="editor_show_sidebar">False</item>
+  </attributes>
+  <style>
+    <back_color>#EFECCA</back_color>
+    <fore_color>#002F2F</fore_color>
+    <line_color>#A7A37E</line_color>
+    <border_color>#A7A37E</border_color>
+    <node_back_color>#E6E2AF</node_back_color>
+    <node_fore_color>#002F2F</node_fore_color>
+    <select_color>#046380</select_color>
+    <hover_color>#046380</hover_color>
+    <link_line_color>#046380</link_line_color>
+  </style>
+  <nodes>
+    <node text="Mastering Visual Studio Code" hyperlink="https://www.udemy.com/course/mastering-visual-studio-code/">
+      <style>
+        <back_color>#FFC080</back_color>
+        <fore_color>Black</fore_color>
+        <border_color>#002F2F</border_color>
+        <padding>12</padding>
+      </style>
+      <nodes>
+        <node text="Section 1: Setting up VS Code">
+          <nodes>
+            <node text="1. VS Code install">
+              <nodes>
+                <node text="Select platform and download from https://code.visualstudio.com/" />
+                <node text="Check&quot;Add to PATH&quot;" />
+                <node text="Start with the command &quot;code&quot; from a terminal" />
+                <node text="On Linux: &quot;sudo snap install code --classic&quot;" />
+              </nodes>
+            </node>
+            <node text="2. VS Code first contact">
+              <nodes>
+                <node text="Toggle zoom: Ctrl + , Ctrl -" />
+                <node text="User/Workspace settings" />
+                <node text="Edit the settings.json file" />
+              </nodes>
+            </node>
+            <node text="3. VS Code extensions">
+              <nodes>
+                <node text="Search and view extension details in the extension view" />
+                <node text="&quot;Code runner&quot; extension - Run code by pressing one button" />
+                <node text="&quot;Quokka.js&quot; extension - learn Javascript" />
+                <node text="Open Commad Palette: Ctrl + Shift + P" />
+              </nodes>
+            </node>
+            <node text="4. The Command Palette">
+              <nodes>
+                <node text="Shortcut: Ctrl + Shift + P" />
+                <node text="Search for all commands in VS Code" />
+                <node text="Find file: Ctrl + P" />
+                <node text="Command Palette + @: File outline" />
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node text="Section 2: VSCode for JavaScript &amp; NodeJS">
+          <nodes>
+            <node text="1. Intellisense and JSDoc">
+              <nodes>
+                <node text="Quick Info/Trigger suggestion: Ctrl + Space" />
+                <node text="Display method doc: call trigger suggestion again" />
+                <node text="Ctrl + Click: open method" />
+                <node text="/**: generate documentation comment" />
+              </nodes>
+            </node>
+            <node text="2. Installing NodeJS">
+              <nodes>
+                <node text="Download and install NodeJS and NPM also" />
+                <node text="Check installation result: node --version and npm --version" />
+                <node text="On Linux: sudo apt install nodejs ||| sudo apt install npm" />
+              </nodes>
+            </node>
+            <node text="3. The terminal">
+              <nodes>
+                <node text="VSCode contains a fully funtional terminal" />
+                <node text="Run multiple terminal/split view" />
+                <node text="Close terminal" />
+              </nodes>
+            </node>
+            <node text="4. ESLint">
+              <nodes>
+                <node text="Eslint - tool for indentifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs" />
+                <node text="Install with: npm install eslint" />
+              </nodes>
+            </node>
+            <node text="5. Formatting code">
+              <nodes>
+                <node text="Shortcut: Alt + Shift + F" />
+                <node text="May be conflicting with eslint" />
+                <node text="May be automatically called on SAVE - Settings &gt; Editor &gt; Format on Save" />
+              </nodes>
+            </node>
+            <node text="6. TypeScript">
+              <nodes>
+                <node text="Supper set of JavaScript" />
+                <node text="Install with: npm install -g typescript" />
+                <node text="Compile with: tsc typescriptFile.ts" />
+                <node text="Directly run typescript files with: npx ts-node typescriptFile.ts" />
+                <node text="npx install with: npm i -g npx" />
+              </nodes>
+            </node>
+            <node text="7. Code Navigation">
+              <nodes>
+                <node text="Open file: Ctrl + P and file initials" />
+                <node text="Navigate in single file: outline, minimap and breadcrumbs" />
+                <node text="Open reference: Ctrl + click on reference" />
+                <node text="Search and replace from Dedicated view" />
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node text="Section 3: Web Design">
+          <nodes>
+            <node text="1. Overview">
+              <nodes>
+                <node text="Write HTML: Emmet abbreviations, HTML snippets, HTML static code analysis" />
+                <node text="Write CSS" />
+                <node text="The 'Live Server' extension" />
+              </nodes>
+            </node>
+            <node text="2. Write HTML">
+              <nodes>
+                <node text="Emmet abbreviations: !, div.container&gt;h2" />
+                <node text="Doc for Emmet abbreviations: https://docs.emmet.io/abbreviations/" />
+                <node text="HTMLHint extension - configure with a .htmlhintrc file" />
+              </nodes>
+            </node>
+            <node text="3. Writing CSS">
+              <nodes>
+                <node text="Toggle color picker: hoover over a color" />
+                <node text="Comment/Decomment code: Ctrl + /" />
+              </nodes>
+            </node>
+            <node text="4. Live-Server extension">
+              <nodes>
+                <node text="Launch with 'Go Live' button on the bottom right" />
+                <node text="Access website from local network: (ipconfig - to find a local IP address)" />
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node text="Section 4: The Debugger">
+          <nodes>
+            <node text="1. Debugger Setup">
+              <nodes>
+                <node text="Debug configurations - stored in launch.json" />
+                <node text="Place Break-points and control the program execution" />
+                <node text="Inspect the state of the program at a certain point to determine/find eventually bugs" />
+              </nodes>
+            </node>
+            <node text="2. Debug view">
+              <nodes>
+                <node text="View Local/Closure/Global variables" />
+                <node text="Control the execution flow: Step Over, Step Into, Skip, Step Out" />
+                <node text="View CallStack" />
+              </nodes>
+            </node>
+            <node text="3. Debugging TypeScript">
+              <nodes>
+                <node text="Custom the configuration:">
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>{
+"name": "Launch TS",
+"type": "node",
+"request": "launch",
+"runtimeArgs": ["-r", "ts-node/register"],
+"args": ["${relativeFile}"],
+"env": {
+"ACCOUNT": "myTestAccount"
+}
+}
+</description>
+                    </widget>
+                  </widgets>
+                </node>
+              </nodes>
+            </node>
+            <node text="4. Debugging Front-end applications">
+              <nodes>
+                <node text="Using the 'Debugger for Chrome' extension" />
+                <node text="More debug configurations: https://github.com/microsoft/vscode-recipes" />
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node text="Section 5: GIT">
+          <nodes>
+            <node text="1. Installing Git">
+              <nodes>
+                <node text="Download, install, check install with: git --version" />
+                <node text="With Linux: sudo apt install git -all" />
+              </nodes>
+            </node>
+            <node text="2. Basic Git commands">
+              <nodes>
+                <node text="git status: displays the status of the working directory and the staging area" />
+                <node text="git init: creates a new Git repository" />
+                <node text="git add .: adds changes in the working directory to the staging area" />
+                <node text="git commit -m &quot;commit message&quot;: captures a snapshot of the project's currently staged changes" />
+                <node text="git push: push commits from the local branch to a remote repository" />
+              </nodes>
+            </node>
+            <node text="3. Github interface">
+              <nodes>
+                <node text="github.com: host for software development version control using Git" />
+                <node text="Create an account. Tip: pick a short username" />
+                <node text="Create a remote repository and get its URL" />
+                <node text="git remote add origin &quot;repoURL&quot;" />
+                <node text="git push origin master" />
+                <node text="git clone repoURL - copy locally a repository" />
+              </nodes>
+            </node>
+            <node text="4. Git vs VSCode">
+              <nodes>
+                <node text="Use the source control view" />
+                <node text="Initialize repository" />
+                <node text="Stage the changes, add commit message and commit" />
+                <node text="VSCode command: Add remote" />
+                <node text="Remote name: origin" />
+                <node text="git push and provide GitHub credentials" />
+              </nodes>
+            </node>
+            <node text="5. Git commit">
+              <nodes>
+                <node text="Modifieds files now appear in the source control view" />
+                <node text="Open them in Diff view" />
+                <node text="Discard changes if they are not correct" />
+                <node text="Add a .gitignore file to ignore large folders (libraries) or sensitive files" />
+              </nodes>
+            </node>
+            <node text="6. Git branches">
+              <nodes>
+                <node text="Can be created from GitHub interface" />
+                <node text="git pull - notify about changes on the remote repository" />
+                <node text="git checkout -b &quot;newBranchName&quot; - create branch with the local changes" />
+              </nodes>
+            </node>
+            <node text="7. Resolving conflicts">
+              <nodes>
+                <node text="git checkout master" />
+                <node text="git pull" />
+                <node text="git checkout featureBranch" />
+                <node text="git merge master" />
+                <node text="--&gt; fix the conflicts" />
+                <node text="git commit" />
+              </nodes>
+            </node>
+            <node text="8. GitLens extension">
+              <nodes>
+                <node text="Repositories" />
+                <node text="File history" />
+                <node text="Line history" />
+                <node text="Compare" />
+                <node text="Search commits" />
+              </nodes>
+            </node>
+            <node text="9. Markdown language">
+              <nodes>
+                <node text="Lightweight markup language with plain text formatting syntax (makes file look cool)" />
+                <node text="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet" hyperlink="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet" />
+                <node text="Great for formatting readme.md files" />
+              </nodes>
+            </node>
+            <node text="10. Live Share extension">
+              <nodes>
+                <node text="Make pair programmming very easy and convenience" />
+                <node text="Login with GitHub or Windows credentials" />
+                <node text="Start or Join a session" />
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node text="Section 6: Favourite Extension">
+          <nodes>
+            <node text="Framework (Angular, Vue.js, ReactJS)">
+              <nodes>
+                <node text="Angular: Angular Language Service by Angular, Angular snippets by John Papa" />
+                <node text="Vue: Vetur by Pine Wu" />
+                <node text="React: VSCode is very helpful its own">
+                  <nodes>
+                    <node text="React Code Snippets or React Native Tools by Microsoft" />
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node text="Visual Adjustment extensions">
+              <nodes>
+                <node text="Icons: vscode-icons by VSCode Icons Team">
+                  <nodes>
+                    <node text="Search with: icons: @sort:installs" />
+                  </nodes>
+                </node>
+                <node text="Visual themes: One Dark Pro">
+                  <nodes>
+                    <node text="Search with: themes: @sort: installs" />
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node text="Productivity extensions">
+              <nodes>
+                <node text="Code Runner" />
+                <node text="Rest Client" />
+                <node text="Paste JSON" />
+                <node text="Code spell checker" />
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node text="Section 7: Python in VSCode">
+          <nodes>
+            <node text="1. Python installation">
+              <nodes>
+                <node text="https://www.python.org/downloads/" hyperlink="https://www.python.org/downloads/" />
+                <node text="Check install: python --version" />
+                <node text="Linux:">
+                  <nodes>
+                    <node text="1. sudo apt update" />
+                    <node text="2. sudo apt install software-properties-common" />
+                    <node text="3. sudo add-apt-repository ppa: deadsnakes/ppa" />
+                    <node text="4. sudo apt install python3.7 (or maybe higher)" />
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node text="2. Python with VSCode">
+              <nodes>
+                <node text="Install the Python extension" />
+                <node text="Install requests lib: pip install requests" />
+                <node text="Make a http call">
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description># print("Hello world!");
+
+import requests
+response = requests.get(
+    "http://api.openweathermap.org/data/2.5/weather?q=London&amp;APPID=323a805c82f4e444c4d6eb02dd3cc09f")
+print(response.text)
+
+data = response.json()
+weather = data['weather'][0]
+description = weather['description']
+
+print(description)
+</description>
+                    </widget>
+                  </widgets>
+                </node>
+                <node text="Update pip to latest version: python -m pip install --upgrade pip">
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>https://datatofish.com/upgrade-pip/</description>
+                    </widget>
+                  </widgets>
+                </node>
+                <node text="Uninstall lib: pip uninstall requests" />
+              </nodes>
+            </node>
+            <node text="3. Python Debugger" />
+            <node text="4. Python formatting and linting">
+              <nodes>
+                <node text="Install a formatter: autopep8" />
+                <node text="VSCode command: format document" />
+                <node text="Install a linter: pip install pylint" />
+                <node text="See errors in the editor and the Problems tab" />
+                <node text=".pylintrc - linting options" />
+                <node text="If linting doesn't work, manual edit the 'pylint path' in the Settings" />
+              </nodes>
+            </node>
+            <node text="5. Python unit testing">
+              <nodes>
+                <node text="VSCommand: Discover Tests" />
+                <node text="Config and run the tests" />
+                <node text="If code lens don't appear, add the setting: &quot;python.jediEnabled&quot;: false" />
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node text="Section 8: Java in VSCode">
+          <nodes>
+            <node text="Java Installation">
+              <nodes>
+                <node text="Use OpenJDK https://openjdk.java.net" />
+                <node text="On Linux: sudo apt install openjdk-11-jre-headless" />
+              </nodes>
+            </node>
+            <node text="Java in VSCode">
+              <nodes>
+                <node text="Install the Java Extension Pack extension by MS" />
+                <node text="VSCode command: Configure Java Runtime" />
+                <node text="Set &quot;java.home&quot;" />
+                <node text="VSCode command: Create Java Project" />
+              </nodes>
+            </node>
+            <node text="Java Code assist">
+              <nodes>
+                <node text="Create new Java class" />
+                <node text="Create 2 fields" />
+                <node text="use the 'Source Action' menu to generate code" />
+              </nodes>
+            </node>
+            <node text="Java - Importing libraries">
+              <nodes>
+                <node text="Download JUnit and Hamcrest libraries from Github" />
+                <node text="Download thier sources" />
+                <node text="Put them to the lib folder of the project" />
+                <node text="Edit the .classpath file with new entries: kind=lib, path=relativePathToJar,sourcepath=relativePathToSource" />
+                <node text="If the Java Dependencies view is not updated, use the command 'Clean the Java language server workspace'" />
+                <node text="Write and run UnitTest" />
+              </nodes>
+            </node>
+            <node text="Using Maven">
+              <nodes>
+                <node text="Install Maven" />
+                <node text="VSCode command: Create new Maven project" />
+                <node text="VSCode command: Maven: Add dependency" />
+              </nodes>
+            </node>
+            <node text="Java Debugger">
+              <nodes>
+                <node text="Debug cofigurations: .vscode/launch.json" />
+                <node text="Sample debug config">
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App&lt;MyJavaProject&gt;",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "MyJavaProject"
+        }
+    ]
+}</description>
+                    </widget>
+                  </widgets>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node text="Section 9: C++ and C# in VSCode">
+          <nodes>
+            <node text="Installation a C++ compiler">
+              <nodes>
+                <node text="Windows: MinGW-w64">
+                  <nodes>
+                    <node text="Install to a folder with no spaces" />
+                    <node text="Add to PATH" />
+                    <node text="Verify with: g++ --version" />
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node text="C++ in VSCode">
+              <nodes>
+                <node text="Install C++ extension from Microsoft" />
+                <node text="Run Simple program wih the Code Runner Extension" />
+              </nodes>
+            </node>
+            <node text="C++ Build, Run, Debug">
+              <nodes>
+                <node text="Ctrl + Shift + P: Task: Configure Task" />
+              </nodes>
+            </node>
+            <node text="C++ Code assist">
+              <nodes>
+                <node text="Trigger suggestion: Ctrl + Space" />
+                <node text="Code Snippets" />
+                <node text="Format with the command: Format (document or selection)" />
+                <node text="Open declaration with Ctrl + Click" />
+                <node text="Rename symbol with F2" />
+              </nodes>
+            </node>
+            <node text="NetCoreSDK installation" />
+            <node text="C# in VSCode">
+              <nodes>
+                <node text="Create new console app: dotnet new console -o cSApp" />
+                <node text="Run: dotnet restore" />
+                <node text="Run the app: dotnet run" />
+              </nodes>
+            </node>
+            <node text="C# code assist" />
+          </nodes>
+        </node>
+        <node text="Section 10: Creating a VSCode extension">
+          <nodes>
+            <node text="Creating a VSCode extension">
+              <nodes>
+                <node text="https://code.visualstudio.com/api/get-started/your-first-extension" />
+                <node text="Install Yeoman: npm install -g yo generator-code" />
+                <node text="Generte boiler plate code: yo code" />
+                <node text="Run &amp; Debug extension code with F5" />
+                <node text="If have multiples commands, must add all commands to package.json/contributes/commands and to activationEvents" />
+              </nodes>
+            </node>
+            <node text="Extension finalization">
+              <nodes>
+                <node text="Tools from VSCode - vsce: npm install -g vsce" />
+                <node text="For the readme file: use https links to show images or gif, best option is: https://raw.githubusercontent.com" />
+                <node text="Add publisher in package.json" />
+                <node text="Pakage with: vsce package" />
+                <node text="Install extension with: code --install-extension my-extension-0.0.1.vsix" />
+                <node text="Reload Windows and use" />
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node text="Section 11: VSCode insights">
+          <nodes>
+            <node text="Electron - use by VSCode" />
+            <node text="Electron setup">
+              <nodes>
+                <node text="Package app with: electron-packager . --platform=YourPlatform" />
+                <node text="Best run commands as 'npm' script" />
+                <node text="Electron disavantage: big file sizes" />
+              </nodes>
+            </node>
+            <node text="Launch VSCode in browser - available on Linux &amp; Mac">
+              <nodes>
+                <node text="Solution from https://coder.com/" />
+                <node text="Launch with sudo ./code-server" />
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+</map>
